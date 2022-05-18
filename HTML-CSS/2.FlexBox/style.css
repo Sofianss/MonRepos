@@ -33,11 +33,27 @@ body{
 .container{
     background-color: rgb(255, 0, 0);
     display: flex;
-    height: 100px;
-    flex-wrap: nowrap;
-    align-items: flex-start;
+    height: 150px;
+    align-items: center;
+    /* flex-wrap: wrap;
+    flex-direction: column-reverse; */
+    flex-flow: row wrap;
 }
 .cont-item{
     background-color: orange;
     border: 1px solid rgb(50, 60, 60);
+    /* font-siez: 30px;
+    padding: 10px; */
 }
+
+.spaced {
+    justify-content: space-around   ;
+}
+.order1{order: 1;}
+.order2{order: 2;}
+.order3{order: 3;}
+.order4{order: 4;}
+.order5{order: 5;}
+
+.obj1{align-self: flex-end;}
+.obj2{align-self: stretch;}
