@@ -1,0 +1,146 @@
+body{
+    text-align: center;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+}
+.img {
+    /* Hauteur de l'image */
+    height: 100px;
+    /* Marge interrieur */
+    padding: 10px;
+    /* Arrondir les angles */
+    border-radius: 25px;
+    position: absolute;
+    top: 0; 
+    left: 0;
+}
+#backgroundImg {
+    background-image: url(./4vZRbC.jpg);
+    background-repeat:space;
+    height: 1000px;
+    position: relative;
+    
+}
+caption{
+margin-bottom: 10px;
+font-weight: bold;
+}
+
+table{
+border: 1px solid #454545;
+margin-bottom: 25px;
+}
+
+th{
+border: 1px solid #454545;
+background-color: #7aafff;
+color: white;
+padding: 5px;
+}
+
+td{
+border: 1px solid #454545;
+background-color: rgb(255, 255, 255);
+}
+
+.bdCollapse{
+border-collapse: collapse;
+}
+.dashed{
+    border-collapse: collapse;
+    border : 3px dashed red
+}
+
+.dotted{
+    border-collapse: collapse;
+    border: 3px dotted blueviolet;
+}
+
+.double{
+    border: 3px double green;
+}
+
+.ridge{
+    border-collapse: collapse;
+    border : 3px ridge orangered
+}
+.container {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.space {
+    margin: 10px;
+}
+
+.ck_label{
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    /* Modifie le cursus en doigt */
+    cursor: pointer;
+    position: relative;
+}
+/* Cacher le bouton */
+.btn_chb{
+    display: none;
+}
+
+/* mettre tous les éléments "span" frères du bouton checkbox en inline-block pour pouvoir les aligner et changer leurs dimensions */
+.btn_chb~span{
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    color: white;
+    border-radius: 20px;
+    vertical-align: middle;
+    opacity: 0.7;
+    font-size: 0.7em;
+    line-height: 1.9em;
+    font-weight: bold;
+    /* Positionner tous les span par rapport à leurs parent "label" */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Style initial du span "NON", avec une opacité à 0 pour le rendre invisible */
+#snon{
+    background-color: red;
+    text-align: right;
+    padding-right: 6px;
+    transition: all 0.5s ease;
+}
+/* Style initial du span"OUI", avec une opacité à 0 pour le rendre invisible */
+#soui{
+    background-color: greenyellow;
+    text-align: left;
+    padding-left: 6px;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+/* Style du petit bouton rond */
+#round{
+    width: 20px;
+    height: 20px;
+    top: auto;
+    border-radius: 40px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 2);
+    opacity: 1;
+    transition: all 0.5s ease;
+    background-color: azure;
+}
+
+/* Après changement de l'état du checkbox en "Checked" par le clic de l'utilisateur, on déplace le spa rond et on affiche le span "OUI" */
+.btn_chb:checked~#round{
+left: 36px
+}
+
+.btn_chb:checked~#soui{
+    opacity: 1;
+}
+

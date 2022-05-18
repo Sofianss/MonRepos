@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Le traitement de texte en HTML</title>
+</head>
+<body>
+    <h1>Le traitement de texte en HTML</h1>
+    <span>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, quisquam omnis voluptates modi quos ab optio officia architecto ducimus odit sequi deserunt maiores aliquam voluptate pariatur doloremque aperiam voluptatum sit, quis dicta corporis. <br/> <!--retour à la ligne-->
+        
+
+         <strong>maxime</strong> vero <b>distinctio</b>, commodi sequi esse <span class="myBold"> corrupti iusto, magni blanditiis</span>span natus ratione libero provident? <span class="myItalic"> exercitationem, iure dolorum, aut in a aspernatur incidunt nulla molestias</span> inventore possimus voluptas perferendis eveniet. Expedita blanditiis earum quae provident nulla atque modi eius dolorem voluptatum esse veritatis, eos, autem magni vel iusto deserunt assumenda distinctio amet perferendis. Repudiandae tempore minima aut enim quibusdam ipsam obcaecati eum nihil omnis labore.
+    </span>
+    <hr> <!--Pour faire un séparateur xHtml, pas HTML-->
+    <!-- del est une balise qui informe que l'information sur le contenu de la page n'est plus juste-->
+    <!--"ins" va indiquer au navigateur la nouvelle valeur si connue-->
+    <p>
+        Il y a <del>800</del><ins>12000</ins>habitants dans cette ville et 4 maisons.
+    </p>
+    <p>
+        il y a <s>800</s>habitants dans cette ville
+    </p>
+<pre>
+    <mark class="red"> ipsum dolor sit amet consectetur, adipisicing elit</mark>. Atque id quam sed impedit iusto, molestiae veritatis aspernatur eum nemo dicta soluta placeat cupiditate dolore repellendus minus sapiente dolor illo ipsam, a vitae culpa, excepturi distinctio voluptate. Sint beatae esse autem cumque voluptate dolores quae vero harum vel sequi, aut incidunt suscipit maxime sit porro voluptatibus.
+    
+    <span class="red">harum, eaque omnis cupiditate tempora explicabo dolorem molestiae debitis neque accusamus quo repellat maxime quibusdam recusandae doloremque illo vitae, aperiam tempore maiores</span>, facere ab adipisci itaque consequatur. Asperiores facilis numquam sed neque animi deleniti rerum nulla distinctio incidunt suscipit, nisi corporis sequi dolorum consequatur aliquam, quos odio molestias eos nemo quae cumque. Maiores, architecto corrupti! Tempora, autem omnis, incidunt amet accusantium ipsa odio minus corrupti fuga ex error nobis praesentium beatae sit libero dolore voluptate maxime. Earum excepturi molestiae cupiditate adipisci, velit facere ratione eligendi perspiciatis corrupti debitis harum libero porro accusantium, suscipit hic.
+
+</pre>
+<!--Insertion de ligne de code en HTML (ne doit pas être interprété)-->
+    <pre>
+        <code>
+            if(age>18)
+            {
+                console.log("Vous êtes majeur !")
+            }
+        </code>
+    </pre>
+    <h2>texte caché (details)</h2>
+    <p>
+    Voici la question que je vous pose
+    </p>
+    <details>
+        <summary>voir la réponse</summary>
+        <p>
+            Voice la réponse
+        </p>
+    </details>
+</body>
+</html>
