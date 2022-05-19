@@ -1,0 +1,134 @@
+body{
+    color: aliceblue;
+}
+
+.haut{
+
+    background-color: rgb(119, 1, 187);
+
+    height: 100px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;    
+
+    align-items: center;
+
+    text-align: center;
+
+}
+
+.menu{
+
+background-color: rgb(4, 1, 187);
+
+height: 50px;
+
+display: flex;
+
+flex-direction: column;
+
+justify-content: center;    
+
+align-items: center;
+
+text-align: center;
+
+}
+
+
+    .bas{
+
+        background-color: rgb(109, 109, 109);
+
+        height: 100px;
+
+        width: 100%;
+
+        display: flex;
+
+        flex-direction: column;
+
+        justify-content: center;  
+
+        align-items: center;
+
+        text-align: center;
+
+         
+
+    
+    }
+
+    .iA{
+        background-color: red;
+        display: flex;
+
+        flex-direction :column; 
+
+        align-items: center;
+
+        text-align: center;
+        
+        }
+        
+        .iB{
+        
+            background-color: rgb(214, 120, 13);
+            display: flex;
+
+        flex-direction: column;  
+
+        align-items: center;
+
+        text-align: center;
+
+            
+        }
+        
+        .iC{
+            background-color: rgb(61, 136, 0);
+            display: flex;
+
+        flex-direction: column; 
+
+        align-items: center;
+
+        text-align: center;
+        
+                
+        }
+        
+        .iD{
+            background-color: rgb(134, 99, 0);
+            display: flex;
+
+        flex-direction: column; 
+
+        align-items: center;
+
+        text-align: center;
+        }
+        
+        
+   
+
+.place{
+    border: 2px solid;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 100px 100px 100px 100px;
+    gap: 2px;
+    padding: 10px;
+    background-color: rgb(253, 184, 253);
+
+
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
