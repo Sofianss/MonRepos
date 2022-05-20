@@ -26,11 +26,13 @@ h1{
 caption{
 margin-bottom: 10px;
 font-weight: bold;
+text-align: center;
 }
 
 table{
 border: 1px solid #454545;
 margin-bottom: 25px;
+
 }
 
 th{
